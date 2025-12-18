@@ -126,8 +126,9 @@ function getSubcategoryName(subcategory: string): string {
     'doner': 'Донер',
     'shawarma-new': 'Новинки',
     'shashlik': 'Шашлык',
-    'sides': 'Гарниры',
-    'sauces': 'Соусы'
+    'sides': 'Картошка',
+    'sauces': 'Соусы',
+    'sets': 'Сеты'
   }
   return names[subcategory] || subcategory
 }

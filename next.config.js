@@ -1,15 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    unoptimized: true, // Для Vercel можно оставить true
+    // Разрешаем внешние изображения если нужно
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+    // Убираем предупреждение о качестве
+    qualities: [75, 90],
   },
-  // Если есть проблемы с билдом
-  typescript: {
-    ignoreBuildErrors: false, // Измените на true если TypeScript ошибки
-  },
-  eslint: {
-    ignoreDuringBuilds: true, // Игнорировать ESLint при билде
-  },
+  // Убираем ESLint из конфига
 };
 
 module.exports = nextConfig;

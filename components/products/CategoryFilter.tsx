@@ -19,11 +19,12 @@ const mainCategories = [
 const subcategories = [
     { id: '', name: 'Все', icon: '📋' },
     { id: 'shawarma', name: 'Шаурма', icon: '🌯' },
-    { id: 'doner', name: 'Донер', icon: '🥙' },
+    { id: 'doner', name: 'Донар', icon: '🥙' },
     { id: 'shawarma-new', name: 'Новинки', icon: '⭐' },
     { id: 'shashlik', name: 'Шашлык', icon: '🍖' },
-    { id: 'sides', name: 'Гарниры', icon: '🍟' },
-    { id: 'sauces', name: 'Соусы', icon: '🥫' },
+    { id: 'sides', name: 'Картошка', icon: '🍟' },
+    { id: 'sauces', name: 'Гарниры/Соусы', icon: '🥫' },
+    
 ]
 
 export default function CategoryFilter({

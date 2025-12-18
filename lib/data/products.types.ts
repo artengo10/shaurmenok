@@ -11,7 +11,8 @@ export interface Product {
     | "shawarma-new"
     | "shashlik"
     | "sides"
-    | "sauces";
+    | "sauces"
+    | "sets";
   weight?: number;
   unit?: string;
   isPromotion?: boolean;

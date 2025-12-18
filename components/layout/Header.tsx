@@ -111,7 +111,7 @@ export default function Header() {
             <Link href="/" className="flex items-center gap-4">
               <div className="relative w-23 h-18">
                 <Image
-                  src="/logo.jpg"
+                  src="/logo.png"
                   alt="Кафе Уголок Вкуса"
                   fill
                   priority={true}
@@ -119,7 +119,7 @@ export default function Header() {
                 />
               </div>
               <span className="text-xl font-bold text-primary hidden sm:block">
-                Кафе «Уголок Вкуса»
+                Шаурмёнок
               </span>
             </Link>
           </div>
