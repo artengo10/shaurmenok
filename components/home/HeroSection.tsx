@@ -14,7 +14,7 @@ export default function HeroSection({ onMenuClick }: HeroSectionProps) {
             <div className="absolute inset-0 z-0">
                 <Image
                     src="/banner/shawarma-banner.jpg"
-                    alt="Вкуснейшая шаурма в Шаурменке"
+                    alt=""
                     fill
                     className="object-cover scale-105"
                     priority
@@ -26,9 +26,9 @@ export default function HeroSection({ onMenuClick }: HeroSectionProps) {
             <div className="absolute inset-0 z-1 bg-gradient-to-b from-black/70 via-black/45 to-black/25 md:bg-gradient-to-br md:from-black/65 md:via-black/35 md:to-transparent" />
 
             <div className="container relative z-10 px-5 md:px-6">
-                <div className="max-w-2xl mx-auto text-center animate-fade-in-up py-14 md:py-20">
+                <div className="max-w-2xl mx-auto text-center animate-fade-in-up py-14 md:py-3">
                     {/* Логотип/Название */}
-                    <div className="mb-8 md:mb-12 space-y-3">
+                    <div className="mb-8 md:mb-2 space-y-1">
                         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-2xl tracking-tight leading-tight">
                             ШАУРМЁНОК
                         </h1>
