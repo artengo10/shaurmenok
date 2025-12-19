@@ -27,7 +27,7 @@ export default function Footer() {
                                 </div>
                                 <div className="flex items-start gap-1">
                                     <MapPin className="h-3 w-3 text-primary flex-shrink-0 mt-0.5" />
-                                    <span className="text-xs text-muted-foreground">ул. Исполкома, 6/2</span>
+                                    <span className="text-xs text-muted-foreground">ул. Ефремова, 3В</span>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default function Footer() {
 
                     {/* Лого и описание */}
                     <div className="space-y-3">
-                        <h3 className="text-lg font-semibold text-foreground">Кафе «Уголок Вкуса»</h3>
+                        <h3 className="text-lg font-semibold text-foreground">Шаурмёнок</h3>
                         <p className="text-sm text-muted-foreground leading-relaxed">
                             Уютное кафе с доставкой в Нижнем Новгороде.
                             Готовим с любовью и вниманием к деталям.
@@ -79,7 +79,7 @@ export default function Footer() {
                             </div>
                             <div className="flex items-start gap-2">
                                 <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                                <span className="text-sm text-muted-foreground">ул. Исполкома, 6/2</span>
+                                <span className="text-sm text-muted-foreground">ул. Ефремова, 3В</span>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ export default function Footer() {
                 <div className="border-t border-border/50 mt-4 pt-4">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 text-center">
                         <p className="text-xs text-muted-foreground">
-                            © {currentYear} Кафе «Уголок Вкуса». Все права защищены.
+                            © {currentYear} Шаурмёнок. Все права защищены.
                         </p>
                         <div className="flex items-center justify-center gap-4 text-xs text-muted-foreground">
                             <Link href="/privacy" className="hover:text-foreground transition-colors">

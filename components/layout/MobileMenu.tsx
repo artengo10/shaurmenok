@@ -67,7 +67,7 @@ export default function MobileMenu() {
                     {/* Дополнительная информация */}
                     <div className="border-t pt-4">
                         <p className="text-sm text-muted-foreground text-center">
-                            Кафе «Уголок Вкуса» №1
+                            Шаурмёнок
                         </p>
                     </div>
                 </div>

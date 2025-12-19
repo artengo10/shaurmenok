@@ -98,10 +98,10 @@ export default function Header() {
 
                   <div className="border-t border-border mt-8 pt-6 px-4">
                     <p className="text-sm text-muted-foreground text-center">
-                      Кафе «Уголок Вкуса» №1
+                      Шаурмёнок
                     </p>
                     <p className="text-xs text-muted-foreground text-center mt-2">
-                      ул. Исполкома, 6/2, Нижний Новгород
+                      ул. Ефремова, 3В, Нижний Новгород
                     </p>
                   </div>
                 </div>
@@ -112,7 +112,7 @@ export default function Header() {
               <div className="relative w-23 h-18">
                 <Image
                   src="/logo.png"
-                  alt="Кафе Уголок Вкуса"
+                  alt="Шаурмёнок"
                   fill
                   priority={true}
                   className="object-contain"

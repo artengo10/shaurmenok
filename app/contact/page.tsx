@@ -6,7 +6,7 @@ export default function Contact() {
                 <div className="space-y-4 text-muted-foreground">
                     <p className="flex items-center gap-2">
                         <span>📍</span>
-                        <span> Адрес: ул. Исполкома, 6/2 </span>
+                        <span> Адрес: ул. Ефремова, 3B </span>
                     </p>
                     <p className="flex items-center gap-2">
                         <span>📞</span>
